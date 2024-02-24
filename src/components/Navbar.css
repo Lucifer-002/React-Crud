@@ -1,0 +1,38 @@
+/* Navbar.css */
+
+Menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background-color:beige;
+    margin: 0 0;
+  }
+  
+  .navbar-links {
+    display: flex;
+    align-items: center;
+    color: red;
+  }
+  
+  .navbar-links > div {
+    margin-right: 16px;
+    padding-right: 16px;
+  }
+  
+  .navbar-image1{
+    display: flex;
+    align-items: center;
+    width: 3rem;
+    height:3rem;
+  }
+  .navbar-image2{
+    display: flex;
+    align-items: center;
+    width: 3rem;
+    height:3rem;
+    border-radius: 2rem;
+  }
+  /* Add your additional styling for images if needed */
+
+  
+  

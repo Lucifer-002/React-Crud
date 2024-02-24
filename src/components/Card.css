@@ -1,0 +1,134 @@
+.upper
+{
+    background-color:beige;
+    width: 130%;
+    height: 100%;
+    margin: 0 0;
+}
+.tagline
+{
+    color:lightslategrey;
+    font-family: 'Karantina', Arial, sans-serif;
+    align-items: center;
+    font-size: 50px;
+    margin: 0 0;
+    /* font-style: ; */
+    margin-top: 0;
+
+}
+.inverted
+{
+    color:brown;
+    font-family: 'Karantina', Arial, sans-serif;
+    align-items:start;
+    font-size: 80px;
+    margin: 0 0;
+    /* font-style: ; */
+    /* margin-left:15rem ; */
+
+}
+.main {
+    width: 110%;
+    margin-left: 0; /* Removed margin */
+    height: 100%;
+    border-top: 2px groove; /* Border only on the top */
+    border-radius: 2rem;
+    /* box-shadow: 0 8px 18px rgba(0, 0, 0, 0.1); Shadow effect */
+    /* transition: box-shadow 0.3s ease; Add transition for smooth effect */
+}
+.dropdown
+{
+    
+    display: flex;
+}
+.category
+{
+    width: 8rem;
+    height: 1.5rem;
+    font-size: 15px;
+    background-color:beige;
+    margin-top: 2rem;
+    margin-left: 8rem;
+}
+.sortby
+{
+    width: 8rem;
+    height: 1.5rem;
+    font-size: 15px;
+    background-color:beige;
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+.label
+{
+    margin-top: 2rem;
+    margin-left:5rem;
+}
+.search_box{
+
+    width: 15rem;
+    height: 1.5rem;
+    font-size: 15px;
+    /* background-color:beige; */
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-left: 8rem;
+}
+.add_item
+{
+    width: 10rem;
+    height: 2.5rem;
+    font-size: 15px;
+    background-color:green;
+    color: white;
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-left: 12rem;
+}
+.card-container
+{
+    display: flex;
+    justify-content:center;
+}
+.card {
+    width: calc(33.33% - 10px); /* Adjust width as needed */
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: khaki;
+    /* border-color: black;xxxxx */
+    margin: 5rem 5rem;
+    border-style: groove;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 2); /* Shadow effect */
+    transition: box-shadow 0.3s ease; /* Add transition for smooth effect */
+  }
+  
+  
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 20 ); /* Shadow effect on hover */
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 16px;
+  }
+  
+  .card-title {
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+  }
+  
+  .card-description {
+    margin-bottom: 8px;
+    font-size: 15px;
+  }
+  
+  .card-price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #007bff; /* Change color as needed */
+  }
+  
